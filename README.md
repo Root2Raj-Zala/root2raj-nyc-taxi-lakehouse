@@ -1,5 +1,7 @@
 # NYC taxi lakehouse: prove the numbers before serving the dashboard
 
+By **[Ruturajsinh Zala (Root2Raj)](https://root2raj.ruturaj1zala123.chatgpt.site/about/)**. Root2Raj is my personal coding username. [Read the portfolio case study](https://root2raj.ruturaj1zala123.chatgpt.site/projects/nyc-taxi-lakehouse/).
+
 **Root2Raj · Data Architecture · Working local reference implementation**
 
 A trip dashboard needs reliable grains, financial definitions and retry behaviour. This pipeline turns the complete January 2024 yellow-taxi file into source, quality, fact/dimension and aggregate layers using DuckDB and Parquet. It keeps questionable records inspectable rather than silently dropping them.
