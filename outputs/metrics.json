@@ -1,0 +1,56 @@
+{
+  "source_url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet",
+  "zones_url": "https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv",
+  "source_sha256": "c4d59da7bbc8abaeeeb1727947ee93d9891a71acb42854bd80db1571b2030510",
+  "zones_sha256": "1a99e105092230f8620f301edcca7f80d3080642ff404d28ed957d3fa222c8ed",
+  "source_rows": 2964624,
+  "accepted_rows": 2868081,
+  "quarantined_rows": 96543,
+  "quality_partition": {
+    "accepted": 2868081,
+    "distance_policy": 59643,
+    "duration_policy": 2748,
+    "negative_financial_record": 34134,
+    "outside_pickup_month": 18
+  },
+  "accepted_total_amount_usd": "78400956.70",
+  "accepted_distance_miles": 9443139.830000019,
+  "dimension_zone_rows": 265,
+  "gold_digest": "1391c5a66529011f3265ce7a1566ea6330418b9538f7f5f6593eb8adcf9700d2",
+  "idempotency_verified_runs": 2,
+  "top_pickup_boroughs": [
+    [
+      "Manhattan",
+      2572042
+    ],
+    [
+      "Queens",
+      257616
+    ],
+    [
+      "Brooklyn",
+      22261
+    ],
+    [
+      "Unknown",
+      9617
+    ],
+    [
+      "Bronx",
+      5749
+    ],
+    [
+      "N/A",
+      700
+    ],
+    [
+      "EWR",
+      50
+    ],
+    [
+      "Staten Island",
+      46
+    ]
+  ],
+  "scope": "Full January 2024 file; pickup-cohort operational mart. Quarantine is not proof of fraudulent records. Total amount is not profit; cash tips absent."
+}

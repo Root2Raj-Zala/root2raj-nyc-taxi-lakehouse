@@ -1,0 +1,12 @@
+{
+  "schema_contract_passed": true,
+  "source_partition_reconciles": true,
+  "fact_count_equals_accepted": true,
+  "unique_fact_record_keys": true,
+  "zone_dimension_unique": true,
+  "no_orphan_zone_foreign_keys": true,
+  "gold_trip_and_currency_reconcile": true,
+  "gold_distance_reconciles": true,
+  "repeat_load_is_idempotent": true,
+  "pickup_dates_in_month": true
+}
