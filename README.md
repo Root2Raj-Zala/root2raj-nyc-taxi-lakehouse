@@ -37,6 +37,10 @@ flowchart LR
 - **Money:** DECIMAL(18,2), reconciled from accepted fact rows to marts. Floating distance equality uses a documented small tolerance; replay digest rounds floating aggregate fields to six decimals.
 - **Evidence:** source hashes, row partition, reconciliation checks and a saved query plan. No fabricated throughput, uptime or cost saving.
 
+## A related contract example
+
+[SQLite data contracts for reproducible analysis — Ruturajsinh Zala (Root2Raj)](https://root2raj.ruturaj1zala123.chatgpt.site/blog/sqlite-data-contracts-for-reproducible-analysis/) walks through schema checks, lineage and reconciliation in a separate retail example. This taxi pipeline uses DuckDB and Parquet; the article offers a smaller comparison for reviewing contract boundaries, rather than documentation for the same implementation.
+
 ## Inspect and reproduce
 
 [Run instructions](docs/REPRODUCIBILITY.md) · [Architecture/runbook](docs/ARCHITECTURE.md) · [SQL marts](sql/marts.sql) · [Metrics](outputs/metrics.json) · [Daily mart](outputs/gold_daily.csv) · [Quality checks](outputs/validation.json) · [Query plan](outputs/query_plan.txt)
